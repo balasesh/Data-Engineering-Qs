@@ -1,0 +1,21 @@
+Python sample problems
+
+Calculate the average word length.| For the given set of words return the average word length.
+returns the number of times a given character occurs in the given string | find count of letter in a string. | Complete a function that returns the number of times a given character occurs in the given string
+Given two sentences, construct an array that has the words that appear in one sentence and not the other. | uncommon words between 2 strings. | Find the mismatching words between 2 strings
+Find common words in 2 sentences
+Python : fill in the blank(edge case of input list : None , []).
+Given an array containing None values fill in the None values with most recent non None value in the array - input array: [1,None,2,3,None,None,5,None] - output array: [1,1,2,3,3,3,5,5]
+d = {"a": 4, "c": 3, "b": 12} [(k, v) for k, v in sorted(d.items(), key=lambda x: x[1], reverse=True)] #[('b', 12), ('a', 4), ('c', 3)]
+
+
+SQL sample problems
+What brands have an average price above $3 and contain at least 2 different products?
+To improve sales, the marketing department runs various types of promotions. The marketing manager would like to analyze the effectiveness of these promotion campaigns. In particular, what percent of our sales transactions had a valid promotion applied?
+We want to run a new promotion for our most successful category of products (we call these categories “product classes”). Can you find out what are the top 3 selling product classes by total sales?
+We are considering running a promo across brands. We want to target customers who have bought products from two specific brands. Can you find out which customers have bought products from both the “Fort West" and the "Golden" brands?
+Find top 5 sales products having promotions
+% Of sales that had a valid promotion, the VP of marketing wants to know what % of transactions occur on either the very first day or the very last day of a promotion campaign. | What % of sales happened on the first and last day of promotion. | % Of sales that had a valid promotion, the VP of marketing wants to know what % of transactions occur on either the very first day or the very last day of a promotion campaign.
+Which product had the highest sales with promotions and sales ( basically a where clause on 2 flags) | Which product had the highest sales with promotions and sales
+Given a database schema, calculate particular ratios, e.g., the proportion of valid sales that occurred on certain dates.
+What are the top five (ranked in decreasing order) single-channel media types that correspond to the most money the grocery chain had spent on its promotional campaigns?
